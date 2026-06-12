@@ -1,37 +1,58 @@
+# ♟️ Chess
 
-# Chess
+> Abstract: A strategic 8×8 board game for two players built in Java. Played on a board of 64 squares arranged in 8 rows and columns. Each player starts with 16 pieces — 8 pawns, 2 rooks, 2 bishops, 2 knights, 1 queen, and 1 king. Supports both Player vs Player and Player vs Computer modes.
 
-> *Abstract* : A strategic 8x8 board game for two players.It is played on the square board made up of 64 smaller squares with 8 squares in each row and column.Each player starts with 16 pieces 8 pawns,2 rook,2 bishop,2 knights,1 queen and 1 king.The player can play 2v2 with their friend or computers.
+---
 
-### Project Members
-1. KHAN REHAN MAJIBULLAH  [ Team Leader ] 
-2. ANSARI MOHAMMED MOHSIN MOHAMMED FAROOQUE 
-3. KHAN MOHD SAIF ABDUL MUNAF 
+## 🛠️ Platform, Libraries and Frameworks
 
-### Project Guides
-    No guides assigned.
+| Technology | Description |
+|------------|-------------|
+| [Java](https://www.java.com) | Core programming language used to build the entire application |
+| Java Swing / AWT | GUI framework for rendering the chessboard and pieces |
 
-### Deployment Steps
-Please follow the below steps to run this project.
-1. Step 1 here
-2. Step 2 here
-3. Step 3 here
-3. and so on...
+---
 
-### Subject Details
-- Class : SE (COMP) Div A - 2023-2024
-- Subject : Skill base Lab course:Object Oriented Programming with Java (OOPM(2019)(P))
-- Project Type : Mini Project
+## 🎮 Features
 
-### Platform, Libraries and Frameworks used
-1. [NodeJS](https://nodejs.org)
-2. [ExpressJS](https://expressjs.org)
-3. [TensorFlow](https://tensorflowjs.com)
+- ♟️ Full chess rule implementation (legal moves, check, checkmate, stalemate)
+- 👤 Player vs Player mode
+- 🖥️ Graphical User Interface using Java Swing
+- 🔄 Turn-based gameplay with move validation
 
-### Dataset Used
-1. [Kaggle Dataset 1](https://kaggle.com/dataset1)
-2. [Kaggle Dataset 2](https://kaggle.com/dataset2)
+---
 
-### References
-- [https://kaggle.com/dataset1](https://kaggle.com/dataset1)
-- [https://kaggle.com/dataset1](hhttps://kaggle.com/dataset1)
+## 🚀 Deployment Steps
+
+Make sure you have **Java JDK 8+** installed on your system.
+
+1. Clone the repository
+   ```bash
+   git clone https://github.com/RehanKhan1704/Chess.git
+   cd Chess
+   ```
+
+2. Compile the source files
+   ```bash
+   javac -d out src/*.java
+   ```
+
+3. **Run the application**
+   ```bash
+   java -cp out Main
+   ```
+
+> Alternatively, open the project in **IntelliJ IDEA** or **Eclipse** and run `Main.java` directly.
+
+---
+
+## 📁 Project Structure
+
+Chess/
+├── src/
+│   └── *.java        # All Java source files
+└── README.md
+
+- [Chess Rules — FIDE Official](https://www.fide.com/fide/handbook.html)
+- [Java Swing Documentation](https://docs.oracle.com/javase/8/docs/api/javax/swing/package-summary.html)
+- [Object Oriented Programming in Java](https://docs.oracle.com/javase/tutorial/java/concepts/)
